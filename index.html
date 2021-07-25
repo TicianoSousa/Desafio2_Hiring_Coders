@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Desafio 2 Hiring Coders</title>
+</head>
+
+<body>
+    <header><h1> Cadastros Internos da Loja</h1></header>
+
+    <div class="container">
+
+        <section class="section-clientes">
+            <h2>Clientes</h2>
+            <form class="form-clientes">
+
+                <label>Nome</label><br>
+                <input type ="text" name="nome"  id ="nome" /><br>
+
+                <label>Documento</label><br>
+                <input type ="text" name="documento" id ="documento" /><br>
+
+                <label>E-mail</label><br>
+                <input type ="email" name="email"  id ="e-mail" /><br>
+
+                <label>Telefone</label><br>
+                <input type ="text" name="telefone" id ="telefone" /><br>
+
+                <label>Cidade</label><br>
+                <input type ="text" name="cidade"  id ="cidade" /><br>
+
+                <label> Bairro</label><br>
+                <input type ="text" name="bairro" id ="bairro" /><br>
+
+                <label>Endereço</label><br>
+                <input type ="text" name="endereço"  id ="endereco" /><br>
+
+                <label>Número</label><br>
+                <input type ="text" name="numero" id = "numero" /><br>
+
+                <button type="reset" value="limpar" class="btn" id="cad_cliente">Limpar</button>
+               
+
+            </form>
+             <button  class="btn" value="cadastrar" onclick="cadastrar()" >Cadastrar</button>
+             
+                
+
+
+        </section>
+
+        <section class="section-produtos">
+
+            <h2>Produtos</h2>
+
+            <form class="form-produtos">
+
+                <label>Nome do Produto</label><br>
+                <input type="text" name=" nameP" id="nomeProduto"/><br>
+
+                <label>Marca</label><br>
+                <input type="text" name="marca" id="marca"/><br>
+
+                <label>Quantidade de entrada (unidade)</label><br>
+                <input type="text" name="quantidade" id="qnt"/><br>
+
+                <label>Valor de entrada (valor unitário)</label><br>
+                <input type="text" name="valor" id="valor"/><br>
+
+                <label>Data de Entrada</label><br>
+                <input type="text" name="data" id="dataEntrada"/><br>
+
+                <label>Fornecedor</label><br>
+                <input type="text" name="fornecedor" id="fornecedor"/><br>
+                
+                <button type="reset" value="limpar" class="btn">Limpar</button>
+               
+           </form>
+                <button  class="btn" value="cadastro" onclick ="cadastro()" > Cadastrar </button>
+            
+                
+        </section>
+    </div>
+
+
+
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
